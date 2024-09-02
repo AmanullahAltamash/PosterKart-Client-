@@ -1,0 +1,29 @@
+.Home {
+    .collection{
+        margin-top: 40px;
+        z-index:1;
+        .info{
+            
+            .collectionSubHeading{
+                margin-top: 10px ;
+            }
+        }
+
+        .collectionContent{
+            display: flex;
+            justify-content:center ; 
+            align-items: center;
+            gap: 40px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .collectionContentCatagory{
+            display: flex;
+            justify-content: space-between ; 
+            align-items: center;
+            margin-top: 20px;
+            row-gap: 40px;
+            flex-wrap: wrap;
+        }
+    }
+}
